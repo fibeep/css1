@@ -5,19 +5,32 @@
   <title>Challenge 5</title>
   <style>
     /* Style the weather report */
-
+    body {
+      font-family: 'Helvetica Neue';
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      background-color: #eee;
+    }
     /* Apply the following styles to the body */
       /* font family 'Helvetica Neue' */
       /* font size 20px */
       /* line height 1.5 */
       /* Color #333 dark gray */
       /* background color #eee light gray */
-      
+      dt {
+        font-size: 2em;
+        background-color: lightblue;
+      }
 
     /* Style the dt (definition title) */
       /* Make the font really big! 2em */
       /* Make the background color light gray #ccc */
-      
+      dd {
+        font-size: 1.5em;
+        background-color: lightcyan;
+        margin: 0;
+      }
 
     /* Style the dd (definition) */
       /* make the font big 1.5em */
@@ -31,9 +44,12 @@
     dt, dd {
       /* Add some space between these elements and their content */
       /* padding: 0.5em */
+      padding: 0.5em;
       
     }
-
+    h1 {
+      text-align: right;
+    }
     /* Stretch Challenges: 
     
     - Adjust these styles to your taste. What do you think would 
@@ -68,6 +84,10 @@
 
     <dt><time datetime="2018-03-05">05 March 2018</time></dt>
     <dd>Heavy rain.</dd>
+    <dt><time datetime="2018-03-06">06 March 2018</time></dt>
+    <dd>Partially cloudy.</dd>
+    <dt><time datetime="2018-03-07">07 March 2018</time></dt>
+    <dd>Sunny and clear.</dd>
   </dl>
 </article>
 

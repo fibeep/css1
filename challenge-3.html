@@ -6,15 +6,15 @@
     /* Style the blockquote */
     blockquote {
       /* make the font size large size : 2em */
-      
+      font-size: 2.5em;
       /* Use a serif font family : Georgia */
-      
+      font-family: Georgia, serif;
       /* Needs some line space use 1.5 */
-      
+      line-height: 2;
       /* Set the color #777 medium gray */
-      
+      color: tomato;
       /* Use text-align: right */
-      
+      text-align: right;
     }
 
     /* Style the first letter */
@@ -22,7 +22,7 @@
     letter of the blockaquote */
     blockquote::first-letter {
       /* Set the color #000 */
-      
+      color:cyan;
     }
 
     /* Style the author */
@@ -30,13 +30,18 @@
     tags that are inside a blockquote */
     blockquote footer {
       /* Make the font smaller size 0.5em */
-      
+      font-size: 0.5em;
       /* Make the font bold */
-      
+      font-weight: bold;
       /* Change the color #666 */
-      
+      color: cyan;
     }
-
+    body{
+      background-color: darkmagenta;
+    }
+    footer {
+      border: tomato 1px dashed;
+    }
     /* Notice the styles above don't apply to the footer at the 
     the bottom of the page because it is not inside a blockquote. */
 
